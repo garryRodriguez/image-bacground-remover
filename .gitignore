@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+env/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore macOS junk files
+.DS_Store
+.DS_Store?
+._*
+
+# Ignore model files (optional but recommended for rembg)
+*.onnx
+
+# Ignore output folder (optional)
+output/
+
+# Ignore logs
+*.log
